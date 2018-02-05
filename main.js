@@ -1,5 +1,5 @@
 gridWidth = 140;
-gridHeight = 80;
+gridHeight = 90;
 cellSize = 6;
 let neighbors;
 let matrix = [];
@@ -18,7 +18,7 @@ updateGrid();
 setInterval(function() {
   getNeighbors();
   updateGrid();
-}, 200);
+}, 150);
 
 //create/append rect elements + fill matrix + fill elements array
 function buildGrid() {
